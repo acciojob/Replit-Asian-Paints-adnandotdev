@@ -9,7 +9,7 @@ document.getElementById('change_button').addEventListener('click', function() {
 	const selectedBlock = document.getElementById(blockId)
 	selectedBlock.style.backgroundColor = color
 })
-document.getElementById('Reset').addEventListener('click', function() {
+document.getElementById('reset_button').addEventListener('click', function() {
 	const gridItems = document.getElementsByClassName('grid-item')
 	for (let i = 0; i < gridItems.length; i++) {
         gridItems[i].style.backgroundColor = 'transparent'
